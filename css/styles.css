@@ -2,3 +2,11 @@
    align-items: center;
    justify-content: center;
 }
+.carrusel-items {
+   height: 500px;
+   object-fit: cover;
+}
+.logo-bienvenidos {
+   filter: invert(1) brightness(0);
+   width: 140px;
+}
