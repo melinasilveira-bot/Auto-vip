@@ -5,3 +5,12 @@
    align-items: center;
    justify-content: center;
 }
+.navbar {
+  border-bottom: 3px solid #e28e20; 
+}
+.nav-link label {
+  color: black ;
+}
+.link-negro {
+  color: black ;
+}
