@@ -1,13 +1,14 @@
-.botones-nav {
+.nav-logo {
+   width: 100px;
+}
+.center-nav {
    align-items: center;
    justify-content: center;
 }
 .navbar {
   border-bottom: 3px solid #e28e20; 
 }
-.nav-link label {
-  color: black ;
-}
-.link-negro {
+
+.nav-linklabel {
   color: black ;
 }
