@@ -26,13 +26,14 @@
 .nav-linklabel {
    color: black;
 }
-
 .titulo {
   margin-left: 70px;
   margin-top: 20px;
 }
-
 .container {
   margin-left: 60px;
   margin-top: 20px;
+}
+.card-text {
+  color: black;
 }
