@@ -38,3 +38,6 @@
   margin-left: 70px;
   margin-top: 20px;
 }
+.logo-black {
+  filter: invert(1) brightness(0);
+}
