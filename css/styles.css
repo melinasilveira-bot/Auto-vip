@@ -1,14 +1,28 @@
 .nav-logo {
    width: 100px;
 }
-.center-nav {
-   align-items: center;
-   justify-content: center;
+.carrusel-items {
+   height: 600px;
+   overflow: hidden;
+}
+.carrusel-items img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.carouselborderbot {
+   border-bottom: 4px solid #e28e20;
+}
+.logo-bienvenidos {
+   filter: invert(1) brightness(0);
+   width: 150px;
 }
 .navbar {
-  border-bottom: 3px solid #e28e20; 
+   border-bottom: 3px solid #e28e20;
 }
-
+.navbar-bordertop {
+   border-top: 3px solid #e28e20;
+}
 .nav-linklabel {
-  color: black ;
+   color: black;
 }
