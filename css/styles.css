@@ -31,7 +31,6 @@
    margin-top: 20px;
 }
 .container {
-<<<<<<< HEAD
    margin-left: 60px;
    margin-top: 20px;
 }
@@ -88,15 +87,13 @@ label {
 
 .clasificacion input[type="radio"]:checked ~ label {
    color: orange;
-=======
-  margin-left: 70px;
-  margin-top: 20px;
+   margin-left: 70px;
+   margin-top: 20px;
 }
 .nuestro-equipo {
-  margin-left: 70px;
-  margin-top: 20px;
+   margin-left: 70px;
+   margin-top: 20px;
 }
 .logo-black {
-  filter: invert(1) brightness(0);
->>>>>>> b19ca859ade2fdff0e6ef6538ca2933fb5eb8a5b
+   filter: invert(1) brightness(0);
 }
