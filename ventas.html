@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Ventas 0km</title>
+      <link rel="stylesheet" href="css/styles.css" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+         crossorigin="anonymous"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+      />
    </head>
- 
- <nav class="navbar navbar-expand-lg navbar-light bg-black">
+   <body>
+      <!--Nav-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-black pt-0">
          <div class="container">
             <div class="row w-100 botones-nav">
                <div class="col-7">
-                  <img src="img/automotora_vip_logo.png" alt="" class="w-25" />
+                  <img
+                     src="img/automotora_vip_logo.png"
+                     alt=""
+                     class="nav-logo mt-2"
+                  />
                </div>
-               <div class="col-5 navbar-nav">
+               <div class="col-5 navbar-nav ms-auto justify-content-end">
                   <a href="" class="nav-item nav-link text-light">Ventas 0km</a>
                   <a href="" class="nav-item nav-link text-light"
                      >Venta Usados</a
@@ -27,138 +40,1115 @@
                </div>
             </div>
          </div>
-      </nav> 
- 
-           
-<div class="row">
-  <div class="col-6"><h1>Ventas</h1></div> 
-  <div class="col-6"><p><i class="bi bi-arrow-left-right"></i> UYU/USD: 28.38</p> </div>
-
-
-</div>
-    <div class="row">
-      <div class=" col-4  bg-body-secondary">
-  <div class="col-4">
-    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
-      <nav class="nav nav-pills flex-column">
-        <a class="nav-linklabel" href="#item-1">Filtro</a>
-        <nav class="nav nav-pills flex-column">
-          <a class="nav-linklabel ms-3 my-1" href="#item-1-1"><label for="pais">Año</label>
-                     <select name="" id="" class="form-select">
-                        <option value="" selected disabled>Seleccionar...</option>
-                        <option value="">2025</option>
-                        <option value="">2024</option>
-                        <option value="">2023</option>
-                        <option value="">2022</option>
-                     </select></a>
-        </nav>
-        <a class="nav-linklabel" href="#item-2"><label for="pais">Marca</label>
-                     <select name="" id="" class="form-select">
-                        <option value="" selected disabled>Seleccionar...</option>
-                        <option value="">Audi</option>
-                        <option value="">Tesla</option>
-                        <option value="">Toyota</option>
-                        <option value="">Honda</option>
-                     </select></a>
-        <a class="nav-linklabel" href="#item-3"><label for="pais">Modelo</label>
-                     <select name="" id="" class="form-select">
-                        <option value="" selected disabled>Seleccionar...</option>
-                        <option value="">Audi Q5</option>
-                        <option value="">Audi Q7</option>
-                        <option value="">Audi Q9</option>
-                        <option value="">Audi Q6</option>
-                     </select></a>
-        <nav class="nav nav-pills flex-column">
-          <a class="nav-linklabel ms-3 my-1" href="#item-3-1"><label for="pais">Estado, </label>
-                     <select name="" id="" class="form-select">
-                        <option value="" selected disabled>Seleccionar...</option>
-                        <option value="">Maldonado </option>
-                        <option value="">Montevideo</option>
-                        <option value="">Artigas </option>
-                        <option value="">Salto</option>
-                     </select></a>
-                    <button type="button" class="btn btn-warning"><i class="bi bi-search-heart"></i>  Filtrar</button> </div>
-                  <button type="button" class="btn btn-outline-secondary"><i class="bi bi-currency-dollar"></i> Cambiar moneda</button>
-        </nav>
       </nav>
-    </nav>
-  </div>
+      <!--Ventas-precio-->
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-10">
+               <h2 class="m-0">Ventas</h2>
+            </div>
+            <div class="col-2 text-end">
+               <p class="m-0">
+                  <i class="bi bi-arrow-left-right"></i> UYU/USD: 28.38
+               </p>
+            </div>
+         </div>
+         <hr />
+      </div>
+      <!--Filtro-Form-->
+      <div class="container">
+         <div class="row">
+            <div class="col-3" style="border-radius: 5px">
+               <div class="bg-body-secondary p-3 rounded-1">
+                  <p class="fs-3">Filtro</p>
+                  <hr />
+                  <form action="">
+                     <div class="">
+                        <label for="año"
+                           ><strong class="fs-5">Año</strong></label
+                        >
+                        <select name="año" id="" class="form-select">
+                           <option value="" selected disabled>
+                              Seleccionar...
+                           </option>
+                           <option value="">2000</option>
+                           <option value="">2010</option>
+                           <option value="">2020</option>
+                           <option value="">2025</option>
+                        </select>
+                     </div>
+                     <div class="mt-3">
+                        <label for="año"
+                           ><strong class="fs-5">Marca</strong></label
+                        >
+                        <select name="año" id="" class="form-select">
+                           <option value="" selected disabled>
+                              Seleccionar...
+                           </option>
+                           <option value="">audi</option>
+                           <option value="">bentley</option>
+                           <option value="">bmw</option>
+                           <option value="">jaguar</option>
+                           <option value="">volvo</option>
+                        </select>
+                     </div>
+                     <div class="mt-3">
+                        <label for="año"
+                           ><strong class="fs-5">Modelo</strong></label
+                        >
+                        <select name="año" id="" class="form-select">
+                           <option value="" selected disabled>
+                              Seleccionar...
+                           </option>
+                           <option value="">s60</option>
+                           <option value="">s90</option>
+                           <option value="">xc60</option>
+                           <option value="">xc90</option>
+                           <option value="">q5</option>
+                           <option value="">q7</option>
+                           <option value="">r8</option>
+                           <option value="">gt</option>
+                           <option value="">m8</option>
+                           <option value="">xj</option>
+                           <option value="">750li</option>
+                        </select>
+                     </div>
+                     <div class="mt-3">
+                        <label for="año"
+                           ><strong class="fs-5">Estado</strong></label
+                        >
+                        <select name="año" id="" class="form-select">
+                           <option value="" selected disabled>
+                              Seleccionar...
+                           </option>
+                           <option value="">0km</option>
+                           <option value="">Usado</option>
+                        </select>
+                     </div>
+                  </form>
+                  <button class="boton-filtrar w-100 mt-4">
+                     <i class="bi bi-search"></i> Filtrar
+                  </button>
+               </div>
+               <button class="mt-4 w-100 col-2 boton-cambiarmoneda">
+                  <i class="bi bi-currency-dollar"></i> Cambiar moneda
+               </button>
+            </div>
+            <!--Imagenes-compra-->
+            <div class="col-9">
+               <div class="row">
+                  <div class="col-5 p-2 border border-secondary-subtle">
+                     <img
+                        src="img/cars_sales/audi_a6_quattro_2016.jpg"
+                        alt=""
+                        class="img-fluid"
+                     />
+                  </div>
+                  <div class="col-7">
+                     <div
+                        class="d-flex justify-content-between align-items-center mb-1"
+                     >
+                        <h2 class="mb-0">Audi Q5</h2>
+                        <div class="d-flex align-items-center">
+                           <p class="mb-0 me-2">2017 | USD 92.000|</p>
+                           <form action="">
+                              <p class="clasificacion mb-0">
+                                 <input
+                                    id="radio1"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="5"
+                                 />
+                                 <label for="radio1">★</label>
+                                 <input
+                                    id="radio2"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="4"
+                                 />
+                                 <label for="radio2">★</label>
+                                 <input
+                                    id="radio3"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="3"
+                                 />
+                                 <label for="radio3">★</label>
+                                 <input
+                                    id="radio4"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="2"
+                                 />
+                                 <label for="radio4">★</label>
+                                 <input
+                                    id="radio5"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="1"
+                                 />
+                                 <label for="radio5">★</label>
+                              </p>
+                           </form>
+                        </div>
+                     </div>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, incidunt. Aliquam obcaecati sunt recusandae
+                        quisquam deserunt! Neque facilis expedita quae illum
+                        commodi quod, cupiditate minima nobis ea, magnam quam
+                        doloribus! cupiditate minima
+                     </p>
+                     <button type="button" class="btn btn-success">
+                        <i class="bi bi-cart3"></i> Comprar
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-plus-square"></i> Más información
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-box-arrow-in-up-right"></i> Compartir
+                     </button>
+                  </div>
+               </div>
+               <hr />
+               <div class="row align-items-start">
+                  <div class="col-5 p-2 border border-secondary-subtle">
+                     <img
+                        src="img/cars_sales/audi_q5_2017.jpg"
+                        alt=""
+                        class="img-fluid"
+                     />
+                  </div>
+                  <div class="col-7">
+                     <div
+                        class="d-flex justify-content-between align-items-center mb-1"
+                     >
+                        <h2 class="mb-0">Audi Q5</h2>
+                        <div class="d-flex align-items-center">
+                           <p class="mb-0 me-2">2017 | USD 92.000|</p>
+                           <form action="">
+                              <p class="clasificacion mb-0">
+                                 <input
+                                    id="radio1"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="5"
+                                 />
+                                 <label for="radio1">★</label>
+                                 <input
+                                    id="radio2"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="4"
+                                 />
+                                 <label for="radio2">★</label>
+                                 <input
+                                    id="radio3"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="3"
+                                 />
+                                 <label for="radio3">★</label>
+                                 <input
+                                    id="radio4"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="2"
+                                 />
+                                 <label for="radio4">★</label>
+                                 <input
+                                    id="radio5"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="1"
+                                 />
+                                 <label for="radio5">★</label>
+                              </p>
+                           </form>
+                        </div>
+                     </div>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, incidunt. Aliquam obcaecati sunt recusandae
+                        quisquam deserunt! Neque facilis expedita quae illum
+                        commodi quod, cupiditate minima nobis ea, magnam quam
+                        doloribus! cupiditate minima
+                     </p>
+                     <button type="button" class="btn btn-success">
+                        <i class="bi bi-cart3"></i> Comprar
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-plus-square"></i> Más información
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-box-arrow-in-up-right"></i> Compartir
+                     </button>
+                  </div>
+               </div>
+               <hr />
+               <div class="row align-items-start">
+                  <div class="col-5 p-2 border border-secondary-subtle">
+                     <img
+                        src="img/cars_sales/audi_q7_2015.jpg"
+                        alt=""
+                        class="img-fluid"
+                     />
+                  </div>
+                  <div class="col-7">
+                     <div
+                        class="d-flex justify-content-between align-items-center mb-1"
+                     >
+                        <h2 class="mb-0">Audi Q5</h2>
+                        <div class="d-flex align-items-center">
+                           <p class="mb-0 me-2">2017 | USD 92.000|</p>
+                           <form action="">
+                              <p class="clasificacion mb-0">
+                                 <input
+                                    id="radio1"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="5"
+                                 />
+                                 <label for="radio1">★</label>
+                                 <input
+                                    id="radio2"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="4"
+                                 />
+                                 <label for="radio2">★</label>
+                                 <input
+                                    id="radio3"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="3"
+                                 />
+                                 <label for="radio3">★</label>
+                                 <input
+                                    id="radio4"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="2"
+                                 />
+                                 <label for="radio4">★</label>
+                                 <input
+                                    id="radio5"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="1"
+                                 />
+                                 <label for="radio5">★</label>
+                              </p>
+                           </form>
+                        </div>
+                     </div>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, incidunt. Aliquam obcaecati sunt recusandae
+                        quisquam deserunt! Neque facilis expedita quae illum
+                        commodi quod, cupiditate minima nobis ea, magnam quam
+                        doloribus! cupiditate minima
+                     </p>
+                     <button type="button" class="btn btn-success">
+                        <i class="bi bi-cart3"></i> Comprar
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-plus-square"></i> Más información
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-box-arrow-in-up-right"></i> Compartir
+                     </button>
+                  </div>
+               </div>
+               <hr />
 
-  <div class="col-8">
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-      <div id="item-1">
-        <h4><div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="img/cars_sales/audi_q5_2017.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Audi Q5</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cuidatatat non proident, sunt in culpa qui oficia deserunt mollit anim id est laborum.</p>
-        <p class="card-text"><small class="text-body-secondary"><div class="btn-group" role="group" aria-label="Basic example">
-  <button type="button" class="btn btn-primary"><i class="bi bi-cart-dash-fill"></i>Left</button>
-  <button type="button" class="btn btn-primary"><i class="bi bi-plus-square"></i>Middle</button>
-  <button type="button" class="btn btn-primary"><i class="bi bi-box-arrow-up-right"></i>Right</button>
-</div></small></p>
-      </div>
-    </div>
-  </div>
-</div></h4>
-        <p>...</p>
-      </div>
-      <div id="item-1-1">
-        <h5><div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="img/cars_sales/audi_q7_2017.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Audi Q7</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cuidatatat non proident, sunt in culpa qui oficia deserunt mollit anim id est laborum.</p>
-        <p class="card-text"><small class="text-body-secondary"><div class="btn-group" role="group" aria-label="Basic example">
-  <button type="button" class="btn btn-primary"><i class="bi bi-cart-dash-fill"></i>Left</button>
-  <button type="button" class="btn btn-primary"><i class="bi bi-plus-square"></i>Middle</button>
-  <button type="button" class="btn btn-primary"><i class="bi bi-box-arrow-up-right"></i>Right</button>
-</div></small></p>
-      </div>
-    </div>
-  </div>
-</div></h5>
-        <p>...</p>
-      </div>
-      <div id="item-1-2">
-        <h5><div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="img/cars_home/audi_1.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-5">
-      <div class="card-body">
-        <h5 class="card-title">Audi A6 Quattro</h5>
-        <p><i class="bi bi-star-fill"></i></p>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cuidatatat non proident, sunt in culpa qui oficia deserunt mollit anim id est laborum.</p>
-        <p class="card-text"><small class="text-body-secondary"><div class="btn-group" role="group" aria-label="Basic example">
-  <button type="button" class="btn btn-primary"><i class="bi bi-cart-dash-fill"></i>Left</button>
-  <button type="button" class="btn btn-primary"><i class="bi bi-plus-square"></i>Middle</button>
-  <button type="button" class="btn btn-primary"><i class="bi bi-box-arrow-up-right"></i>Right</button>
-</div></small></p>
-      </div>
-    </div>
-  </div>
-</div></h5>
-        <p>...</p>
-      </div>
-     
+               <div class="row align-items-start">
+                  <div class="col-5 p-2 border border-secondary-subtle">
+                     <img
+                        src="img/cars_sales/audi_q7_2017.jpg"
+                        alt=""
+                        class="img-fluid"
+                     />
+                  </div>
+                  <div class="col-7">
+                     <div
+                        class="d-flex justify-content-between align-items-center mb-1"
+                     >
+                        <h2 class="mb-0">Audi Q5</h2>
+                        <div class="d-flex align-items-center">
+                           <p class="mb-0 me-2">2017 | USD 92.000|</p>
+                           <form action="">
+                              <p class="clasificacion mb-0">
+                                 <input
+                                    id="radio1"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="5"
+                                 />
+                                 <label for="radio1">★</label>
+                                 <input
+                                    id="radio2"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="4"
+                                 />
+                                 <label for="radio2">★</label>
+                                 <input
+                                    id="radio3"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="3"
+                                 />
+                                 <label for="radio3">★</label>
+                                 <input
+                                    id="radio4"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="2"
+                                 />
+                                 <label for="radio4">★</label>
+                                 <input
+                                    id="radio5"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="1"
+                                 />
+                                 <label for="radio5">★</label>
+                              </p>
+                           </form>
+                        </div>
+                     </div>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, incidunt. Aliquam obcaecati sunt recusandae
+                        quisquam deserunt! Neque facilis expedita quae illum
+                        commodi quod, cupiditate minima nobis ea, magnam quam
+                        doloribus! cupiditate minima
+                     </p>
+                     <button type="button" class="btn btn-success">
+                        <i class="bi bi-cart3"></i> Comprar
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-plus-square"></i> Más información
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-box-arrow-in-up-right"></i> Compartir
+                     </button>
+                  </div>
+               </div>
+               <hr />
+               <div class="row align-items-start">
+                  <div class="col-5 p-2 border border-secondary-subtle">
+                     <img
+                        src="img/cars_sales/audi_r8_2016.jpg"
+                        alt=""
+                        class="img-fluid"
+                     />
+                  </div>
+                  <div class="col-7">
+                     <div
+                        class="d-flex justify-content-between align-items-center mb-1"
+                     >
+                        <h2 class="mb-0">Audi Q5</h2>
+                        <div class="d-flex align-items-center">
+                           <p class="mb-0 me-2">2017 | USD 92.000|</p>
+                           <form action="">
+                              <p class="clasificacion mb-0">
+                                 <input
+                                    id="radio1"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="5"
+                                 />
+                                 <label for="radio1">★</label>
+                                 <input
+                                    id="radio2"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="4"
+                                 />
+                                 <label for="radio2">★</label>
+                                 <input
+                                    id="radio3"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="3"
+                                 />
+                                 <label for="radio3">★</label>
+                                 <input
+                                    id="radio4"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="2"
+                                 />
+                                 <label for="radio4">★</label>
+                                 <input
+                                    id="radio5"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="1"
+                                 />
+                                 <label for="radio5">★</label>
+                              </p>
+                           </form>
+                        </div>
+                     </div>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, incidunt. Aliquam obcaecati sunt recusandae
+                        quisquam deserunt! Neque facilis expedita quae illum
+                        commodi quod, cupiditate minima nobis ea, magnam quam
+                        doloribus! cupiditate minima
+                     </p>
+                     <button type="button" class="btn btn-success">
+                        <i class="bi bi-cart3"></i> Comprar
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-plus-square"></i> Más información
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-box-arrow-in-up-right"></i> Compartir
+                     </button>
+                  </div>
+               </div>
+               <hr />
+               <div class="row align-items-start">
+                  <div class="col-5 p-2 border border-secondary-subtle">
+                     <img
+                        src="img/cars_sales/bentley_continental_gt_speed_2014.jpg"
+                        alt=""
+                        class="img-fluid"
+                     />
+                  </div>
+                  <div class="col-7">
+                     <div
+                        class="d-flex justify-content-between align-items-center mb-1"
+                     >
+                        <h2 class="mb-0">Audi Q5</h2>
+                        <div class="d-flex align-items-center">
+                           <p class="mb-0 me-2">2017 | USD 92.000|</p>
+                           <form action="">
+                              <p class="clasificacion mb-0">
+                                 <input
+                                    id="radio1"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="5"
+                                 />
+                                 <label for="radio1">★</label>
+                                 <input
+                                    id="radio2"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="4"
+                                 />
+                                 <label for="radio2">★</label>
+                                 <input
+                                    id="radio3"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="3"
+                                 />
+                                 <label for="radio3">★</label>
+                                 <input
+                                    id="radio4"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="2"
+                                 />
+                                 <label for="radio4">★</label>
+                                 <input
+                                    id="radio5"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="1"
+                                 />
+                                 <label for="radio5">★</label>
+                              </p>
+                           </form>
+                        </div>
+                     </div>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, incidunt. Aliquam obcaecati sunt recusandae
+                        quisquam deserunt! Neque facilis expedita quae illum
+                        commodi quod, cupiditate minima nobis ea, magnam quam
+                        doloribus! cupiditate minima
+                     </p>
+                     <button type="button" class="btn btn-success">
+                        <i class="bi bi-cart3"></i> Comprar
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-plus-square"></i> Más información
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-box-arrow-in-up-right"></i> Compartir
+                     </button>
+                  </div>
+               </div>
+               <hr />
+               <div class="row align-items-start">
+                  <div class="col-5 p-2 border border-secondary-subtle">
+                     <img
+                        src="img/cars_sales/bmw_750li_2016.jpg"
+                        alt=""
+                        class="img-fluid"
+                     />
+                  </div>
+                  <div class="col-7">
+                     <div
+                        class="d-flex justify-content-between align-items-center mb-1"
+                     >
+                        <h2 class="mb-0">Audi Q5</h2>
+                        <div class="d-flex align-items-center">
+                           <p class="mb-0 me-2">2017 | USD 92.000|</p>
+                           <form action="">
+                              <p class="clasificacion mb-0">
+                                 <input
+                                    id="radio1"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="5"
+                                 />
+                                 <label for="radio1">★</label>
+                                 <input
+                                    id="radio2"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="4"
+                                 />
+                                 <label for="radio2">★</label>
+                                 <input
+                                    id="radio3"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="3"
+                                 />
+                                 <label for="radio3">★</label>
+                                 <input
+                                    id="radio4"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="2"
+                                 />
+                                 <label for="radio4">★</label>
+                                 <input
+                                    id="radio5"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="1"
+                                 />
+                                 <label for="radio5">★</label>
+                              </p>
+                           </form>
+                        </div>
+                     </div>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, incidunt. Aliquam obcaecati sunt recusandae
+                        quisquam deserunt! Neque facilis expedita quae illum
+                        commodi quod, cupiditate minima nobis ea, magnam quam
+                        doloribus! cupiditate minima
+                     </p>
+                     <button type="button" class="btn btn-success">
+                        <i class="bi bi-cart3"></i> Comprar
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-plus-square"></i> Más información
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-box-arrow-in-up-right"></i> Compartir
+                     </button>
+                  </div>
+               </div>
+               <hr />
+               <div class="row align-items-start">
+                  <div class="col-5 p-2 border border-secondary-subtle">
+                     <img
+                        src="img/cars_sales/bmw_m8_2014.jpg"
+                        alt=""
+                        class="img-fluid"
+                     />
+                  </div>
+                  <div class="col-7">
+                     <div
+                        class="d-flex justify-content-between align-items-center mb-1"
+                     >
+                        <h2 class="mb-0">Audi Q5</h2>
+                        <div class="d-flex align-items-center">
+                           <p class="mb-0 me-2">2017 | USD 92.000|</p>
+                           <form action="">
+                              <p class="clasificacion mb-0">
+                                 <input
+                                    id="radio1"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="5"
+                                 />
+                                 <label for="radio1">★</label>
+                                 <input
+                                    id="radio2"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="4"
+                                 />
+                                 <label for="radio2">★</label>
+                                 <input
+                                    id="radio3"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="3"
+                                 />
+                                 <label for="radio3">★</label>
+                                 <input
+                                    id="radio4"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="2"
+                                 />
+                                 <label for="radio4">★</label>
+                                 <input
+                                    id="radio5"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="1"
+                                 />
+                                 <label for="radio5">★</label>
+                              </p>
+                           </form>
+                        </div>
+                     </div>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, incidunt. Aliquam obcaecati sunt recusandae
+                        quisquam deserunt! Neque facilis expedita quae illum
+                        commodi quod, cupiditate minima nobis ea, magnam quam
+                        doloribus! cupiditate minima
+                     </p>
+                     <button type="button" class="btn btn-success">
+                        <i class="bi bi-cart3"></i> Comprar
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-plus-square"></i> Más información
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-box-arrow-in-up-right"></i> Compartir
+                     </button>
+                  </div>
+               </div>
+               <hr />
 
+               <div class="row align-items-start">
+                  <div class="col-5 p-2 border border-secondary-subtle">
+                     <img
+                        src="img/cars_sales/jaguar_xj_2017.jpg"
+                        alt=""
+                        class="img-fluid"
+                     />
+                  </div>
+                  <div class="col-7">
+                     <div
+                        class="d-flex justify-content-between align-items-center mb-1"
+                     >
+                        <h2 class="mb-0">Audi Q5</h2>
+                        <div class="d-flex align-items-center">
+                           <p class="mb-0 me-2">2017 | USD 92.000|</p>
+                           <form action="">
+                              <p class="clasificacion mb-0">
+                                 <input
+                                    id="radio1"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="5"
+                                 />
+                                 <label for="radio1">★</label>
+                                 <input
+                                    id="radio2"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="4"
+                                 />
+                                 <label for="radio2">★</label>
+                                 <input
+                                    id="radio3"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="3"
+                                 />
+                                 <label for="radio3">★</label>
+                                 <input
+                                    id="radio4"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="2"
+                                 />
+                                 <label for="radio4">★</label>
+                                 <input
+                                    id="radio5"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="1"
+                                 />
+                                 <label for="radio5">★</label>
+                              </p>
+                           </form>
+                        </div>
+                     </div>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, incidunt. Aliquam obcaecati sunt recusandae
+                        quisquam deserunt! Neque facilis expedita quae illum
+                        commodi quod, cupiditate minima nobis ea, magnam quam
+                        doloribus! cupiditate minima
+                     </p>
+                     <button type="button" class="btn btn-success">
+                        <i class="bi bi-cart3"></i> Comprar
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-plus-square"></i> Más información
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-box-arrow-in-up-right"></i> Compartir
+                     </button>
+                  </div>
+               </div>
+               <hr />
+
+               <div class="row align-items-start">
+                  <div class="col-5 p-2 border border-secondary-subtle">
+                     <img
+                        src="img/cars_sales/volvo_s60_2016.jpg"
+                        alt=""
+                        class="img-fluid"
+                     />
+                  </div>
+                  <div class="col-7">
+                     <div
+                        class="d-flex justify-content-between align-items-center mb-1"
+                     >
+                        <h2 class="mb-0">Audi Q5</h2>
+                        <div class="d-flex align-items-center">
+                           <p class="mb-0 me-2">2017 | USD 92.000|</p>
+                           <form action="">
+                              <p class="clasificacion mb-0">
+                                 <input
+                                    id="radio1"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="5"
+                                 />
+                                 <label for="radio1">★</label>
+                                 <input
+                                    id="radio2"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="4"
+                                 />
+                                 <label for="radio2">★</label>
+                                 <input
+                                    id="radio3"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="3"
+                                 />
+                                 <label for="radio3">★</label>
+                                 <input
+                                    id="radio4"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="2"
+                                 />
+                                 <label for="radio4">★</label>
+                                 <input
+                                    id="radio5"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="1"
+                                 />
+                                 <label for="radio5">★</label>
+                              </p>
+                           </form>
+                        </div>
+                     </div>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, incidunt. Aliquam obcaecati sunt recusandae
+                        quisquam deserunt! Neque facilis expedita quae illum
+                        commodi quod, cupiditate minima nobis ea, magnam quam
+                        doloribus! cupiditate minima
+                     </p>
+                     <button type="button" class="btn btn-success">
+                        <i class="bi bi-cart3"></i> Comprar
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-plus-square"></i> Más información
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-box-arrow-in-up-right"></i> Compartir
+                     </button>
+                  </div>
+               </div>
+               <hr />
+
+               <div class="row align-items-start">
+                  <div class="col-5 p-2 border border-secondary-subtle">
+                     <img
+                        src="img/cars_sales/volvo_s90_2016.jpg"
+                        alt=""
+                        class="img-fluid"
+                     />
+                  </div>
+                  <div class="col-7">
+                     <div
+                        class="d-flex justify-content-between align-items-center mb-1"
+                     >
+                        <h2 class="mb-0">Audi Q5</h2>
+                        <div class="d-flex align-items-center">
+                           <p class="mb-0 me-2">2017 | USD 92.000|</p>
+                           <form action="">
+                              <p class="clasificacion mb-0">
+                                 <input
+                                    id="radio1"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="5"
+                                 />
+                                 <label for="radio1">★</label>
+                                 <input
+                                    id="radio2"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="4"
+                                 />
+                                 <label for="radio2">★</label>
+                                 <input
+                                    id="radio3"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="3"
+                                 />
+                                 <label for="radio3">★</label>
+                                 <input
+                                    id="radio4"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="2"
+                                 />
+                                 <label for="radio4">★</label>
+                                 <input
+                                    id="radio5"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="1"
+                                 />
+                                 <label for="radio5">★</label>
+                              </p>
+                           </form>
+                        </div>
+                     </div>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, incidunt. Aliquam obcaecati sunt recusandae
+                        quisquam deserunt! Neque facilis expedita quae illum
+                        commodi quod, cupiditate minima nobis ea, magnam quam
+                        doloribus! cupiditate minima
+                     </p>
+                     <button type="button" class="btn btn-success">
+                        <i class="bi bi-cart3"></i> Comprar
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-plus-square"></i> Más información
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-box-arrow-in-up-right"></i> Compartir
+                     </button>
+                  </div>
+               </div>
+               <hr />
+
+               <div class="row align-items-start">
+                  <div class="col-5 p-2 border border-secondary-subtle">
+                     <img
+                        src="img/cars_sales/volvo_xc60_2017.jpg"
+                        alt=""
+                        class="img-fluid"
+                     />
+                  </div>
+                  <div class="col-7">
+                     <div
+                        class="d-flex justify-content-between align-items-center mb-1"
+                     >
+                        <h2 class="mb-0">Audi Q5</h2>
+                        <div class="d-flex align-items-center">
+                           <p class="mb-0 me-2">2017 | USD 92.000|</p>
+                           <form action="">
+                              <p class="clasificacion mb-0">
+                                 <input
+                                    id="radio1"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="5"
+                                 />
+                                 <label for="radio1">★</label>
+                                 <input
+                                    id="radio2"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="4"
+                                 />
+                                 <label for="radio2">★</label>
+                                 <input
+                                    id="radio3"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="3"
+                                 />
+                                 <label for="radio3">★</label>
+                                 <input
+                                    id="radio4"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="2"
+                                 />
+                                 <label for="radio4">★</label>
+                                 <input
+                                    id="radio5"
+                                    type="radio"
+                                    name="estrellas"
+                                    value="1"
+                                 />
+                                 <label for="radio5">★</label>
+                              </p>
+                           </form>
+                        </div>
+                     </div>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, incidunt. Aliquam obcaecati sunt recusandae
+                        quisquam deserunt! Neque facilis expedita quae illum
+                        commodi quod, cupiditate minima nobis ea, magnam quam
+                        doloribus! cupiditate minima
+                     </p>
+                     <button type="button" class="btn btn-success">
+                        <i class="bi bi-cart3"></i> Comprar
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-plus-square"></i> Más información
+                     </button>
+                     <button
+                        type="button"
+                        class="btn btn-light border border-secondary-subtle"
+                     >
+                        <i class="bi bi-box-arrow-in-up-right"></i> Compartir
+                     </button>
+                  </div>
+               </div>
+               <hr />
+            </div>
+         </div>
       </div>
-      
-    
-      </div>
-    </div>
-  </div>
-</div>
-<h1>tomaa</h1>
-</body>
+      <nav class="navbar-expand-lg navbar-light bg-black navbar-bordertop pb-3">
+         <div class="container">
+            <div class="row w-100 botones-nav">
+               <div class="col-3">
+                  <img
+                     src="img/automotora_vip_logo.png"
+                     alt=""
+                     class="nav-logo"
+                  />
+               </div>
+               <div class="col-3">
+                  <nav class="nav flex-column">
+                     <a href="" class="nav-item nav-link text-light"
+                        >Ventas 0km</a
+                     >
+                     <a href="" class="nav-item nav-link text-light"
+                        >Venta Usados</a
+                     >
+                  </nav>
+               </div>
+               <div class="col-3">
+                  <nav class="nav flex-column">
+                     <a href="" class="nav-item nav-link text-light"
+                        >Sobre Nosotros</a
+                     >
+                     <a href="" class="nav-item nav-link text-light"
+                        >Contacto</a
+                     >
+                  </nav>
+               </div>
+               <div class="col-3 text-light">Copyeight © AutoVIP 2023</div>
+            </div>
+         </div>
+      </nav>
+   </body>
 </html>

@@ -28,11 +28,65 @@
 }
 
 .titulo {
-  margin-left: 70px;
-  margin-top: 20px;
+   margin-left: 70px;
+   margin-top: 20px;
 }
 
 .container {
-  margin-left: 60px;
-  margin-top: 20px;
+   margin-left: 60px;
+   margin-top: 20px;
+}
+.boton-filtrar {
+   border: solid #e28e20;
+   color: white;
+   border-radius: 5px;
+   height: 40px;
+   background-color: #e28e20;
+}
+.boton-cambiarmoneda {
+   height: 40px;
+   border-radius: 5px;
+   border: 1px solid rgb(173, 173, 173);
+}
+.imagenes-ventas {
+   max-width: 50px;
+}
+.borde-img-ventas {
+   border: solid gray;
+   border-radius: 5px;
+}
+#form {
+   width: 250px;
+   margin: 0 auto;
+   height: 50px;
+}
+#form p {
+   text-align: center;
+}
+input[type="radio"] {
+   display: none;
+}
+
+label {
+   color: inherit;
+   font-size: 1rem;
+}
+.clasificacion {
+   direction: rtl;
+   unicode-bidi: bidi-override;
+}
+
+.clasificacion label {
+   font-size: 25px;
+   color: grey;
+   cursor: pointer;
+}
+
+.clasificacion label:hover,
+.clasificacion label:hover ~ label {
+   color: orange;
+}
+
+.clasificacion input[type="radio"]:checked ~ label {
+   color: orange;
 }
