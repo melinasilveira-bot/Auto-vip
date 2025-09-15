@@ -11,24 +11,20 @@
    object-fit: cover;
 }
 .carouselborderbot {
-   border-bottom: 4px solid #e28e20;
+   border-bottom: 6px solid #e28e20;
 }
 .logo-bienvenidos {
    filter: invert(1) brightness(0);
    width: 150px;
 }
 .navbar {
-   border-bottom: 3px solid #e28e20;
+   border-bottom: 5px solid #e28e20;
 }
 .navbar-bordertop {
-   border-top: 3px solid #e28e20;
+   border-top: 5px solid #e28e20;
 }
 .nav-linklabel {
    color: black;
-}
-.titulo {
-   margin-left: 70px;
-   margin-top: 20px;
 }
 .container {
    margin-left: 60px;
@@ -87,10 +83,6 @@ label {
 
 .clasificacion input[type="radio"]:checked ~ label {
    color: orange;
-   margin-left: 70px;
-   margin-top: 20px;
-}
-.nuestro-equipo {
    margin-left: 70px;
    margin-top: 20px;
 }
